@@ -4,7 +4,7 @@ Para execução da API, recomendo fortemente o uso de um ambiente virtual;
 
 Antes de tudo, comande: pip install -r requirements.txt;
 
-Um script do banco de dados está configurado para dar a carga inicial de informações assim que o app.py for executado;
+Um script do banco de dados Mysql com SQLAlchemy está configurado para dar a carga inicial de informações assim que o app.py for executado;
 
 Para abrir a rota da documentação, inicie a aplicação e adicione /openapi a URL (Isso já deve ocorrer automaticamente, pois a execução está regulada para abrir a documentação logo de imediato);
 Para abrir o front, apenas adicione /index a URL;
